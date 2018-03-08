@@ -31,16 +31,6 @@ const getResFn = function(res) {
     };
 };
 
-const getErrorFn = function(res, resFunc) {
-    return function(e) {
-        console.error('服务器错误', e, e.stack);
-        return error;
-    };
-    return {
-        success: success,
-        fail: fail
-    };
-};
 
 const getErrorFn = function(res, resFunc) {
     return function(e) {
@@ -54,4 +44,3 @@ module.exports = {
     getResFn,
     getErrorFn,
 };
-48, 1 Bot
