@@ -31,7 +31,6 @@ const getResFn = function(res) {
     };
 };
 
-
 const getErrorFn = function(res, resFunc) {
     return function(e) {
         console.error('服务器错误', e, e.stack);
@@ -44,3 +43,4 @@ module.exports = {
     getResFn,
     getErrorFn,
 };
+

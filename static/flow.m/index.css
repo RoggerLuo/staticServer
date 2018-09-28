@@ -1,0 +1,116 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000a6;
+}
+
+/*
+::-webkit-input-placeholder !important{
+    color:red;
+}
+:-moz-placeholder !important{
+    color:red;
+}
+:-ms-input-placeholder !important{
+    color:red;
+}
+input[placeholder], [placeholder], *[placeholder] {   
+    color:red !important;   
+} */
+*{
+    // font-size: 30px;
+}
+tbody {
+    cursor: pointer;
+}
+body{
+    color:black;
+}
+.am-progress-bar___28tnv{
+    background-color: white;
+}#tab-bar___9GQaR.demo___SsORg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#tab-bar___9GQaR .demoName___ck_Jr {
+  height: 40px;
+}
+#tab-bar___9GQaR .demo-preview-item___EoEXO .am-tab-bar___Vadx7 {
+  background-color: white;
+}
+
+
+.gradient___3l_D-{
+    background: -webkit-linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -o-linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(245, 245, 245)), to(white));
+    background: -webkit-linear-gradient(top, rgb(245, 245, 245), white);
+    background: -o-linear-gradient(top, rgb(245, 245, 245), white);
+    background: linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -ms-linear-gradient(to bottom, rgb(245, 245, 245), white);
+}
+
+
+
+
+
+
+.formContainer___hn1Fw {
+    width: 400px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.response20Gap___3G8a1{
+    height: 20%;
+    width: 1px;
+}
+.normal___1LGbL {
+    font-family: Georgia, sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+.title___jOezs {
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.welcome___996Bm {
+    height: 328px;
+    background: url(./static/yay.44dd3333.jpg) no-repeat center 0;
+    background-size: 388px 328px;
+}
+
+.list___2nMZI {
+    font-size: 1.2em;
+    margin-top: 1.8em;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.list___2nMZI code {
+    background: #f7f7f7;
+}
+.gradient___2_pqw{
+    background: -webkit-linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -o-linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(245, 245, 245)), to(white));
+    background: -webkit-linear-gradient(top, rgb(245, 245, 245), white);
+    background: -o-linear-gradient(top, rgb(245, 245, 245), white);
+    background: linear-gradient(to bottom, rgb(245, 245, 245), white);
+    background: -ms-linear-gradient(to bottom, rgb(245, 245, 245), white);
+}
+.userselect___1bHzK {
+    -moz-user-select:none;
+     -ms-user-select:none;
+         user-select:none;
+    -webkit-user-select:none;
+}

@@ -5,7 +5,7 @@ function writeFile(inputFile){
     return new Promise(resolve => {
         const tmp_path = inputFile.path;
         const path = process.cwd()
-        const relativePath = `./upload/`
+        const relativePath = `/static/`
         const dstPath = path+relativePath + inputFile.originalFilename     
         fs.rename(tmp_path, dstPath, function(err) {
              if (err) throw err;

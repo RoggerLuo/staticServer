@@ -17,7 +17,7 @@ app.all('*', function(req, res, next) {
 })
 
 app.post('/upload',multipartMiddleware,upload);
-app.use('/static', express.static('static'))
+app.use('/', express.static('static'))
 
 const server = require('http').createServer(app)
 const port = 80
