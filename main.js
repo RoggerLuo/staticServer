@@ -16,9 +16,10 @@ app.all('*', function(req, res, next) {
   next()
 })
 
-app.post('/upload',multipartMiddleware,upload);
-app.use('/', express.static('static'))
+// app.post('/upload',multipartMiddleware,upload);
+app.use('/', express.static('/Users/roger/Work'))
+// app.use('/', express.static('static'))
 
 const server = require('http').createServer(app)
-const port = 80
+const port = 8088
 server.listen(port, () => console.log(`Express server listening on :${port}`))
