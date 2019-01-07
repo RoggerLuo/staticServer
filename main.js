@@ -17,7 +17,7 @@ app.all('*', function(req, res, next) {
 })
 
 // app.post('/upload',multipartMiddleware,upload);
-app.use('/', express.static('/Users/roger/Work'))
+app.use('/', express.static('/Users/roger/ML/faceGame/flask_main/user_photo'))
 // app.use('/', express.static('static'))
 
 const server = require('http').createServer(app)
