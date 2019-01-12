@@ -17,9 +17,9 @@ app.all('*', function(req, res, next) {
 })
 
 // app.post('/upload',multipartMiddleware,upload);
-app.use('/', express.static('/Users/roger/Work/430edu/mobile/dist'))
+app.use('/', express.static('/Users/roger/Work'))
 // app.use('/', express.static('static'))
 
 const server = require('http').createServer(app)
-const port = 9997
+const port = 9999
 server.listen(port, () => console.log(`Express server listening on :${port}`))
